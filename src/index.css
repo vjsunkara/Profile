@@ -7,8 +7,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family:"poppins";
+  color: #ddfdfd;
+  
 
-  margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -21,34 +24,6 @@ code {
     monospace;
 }
 
-.App {
-  text-align: center;
-}
-
-
-.App-header {
-  /*background-color: #282c34;*/
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .header-background{
   background-color: transparent;
@@ -131,12 +106,7 @@ code {
 }
 
 
-body {
-  margin: 0;
-  font-family:"poppins";
-  color: #ddfdfd;
-  /*background: #050808;*/
-}
+
 
 .banner {
   display: flex;
@@ -232,11 +202,7 @@ tr:nth-child(even) {
 .content {
   color: #333; /* Add a text color */
 }
-:root {
-  --dur: 0.3s;
-  font-size: calc(40px + (80- 40)*
-  (100vw - 320px) /(2560 - 320));
-}
+
 
 .experience-container{
   align-items: center;
