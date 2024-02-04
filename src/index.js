@@ -18,7 +18,9 @@ const Header = () => {
       {
         id: 2,
         name: 'Experience',
-        content: <div className="experience-container"> <li><h2>GuideOne Insurance Company | Software Developer Aug 2021– Present.</h2></li>
+        content: <div className="experience-container"> 
+        <br/>
+        <h2>GuideOne Insurance Company | Software Developer Aug 2021– Present.</h2>
         <>Developed an integrated application providing a comprehensive environment for account management, policy
   changes/renewals, monthly premium dues alerts, and claims processing status. Leveraged a diverse technology stack
   to deliver a user-friendly and efficient solution.</>

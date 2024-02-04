@@ -230,9 +230,22 @@ tr:nth-child(even) {
   color: #333; /* Add a text color */
 }
 
-
+@media screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .experience-container{
   align-items: center;
   justify-content: center;
   color: #f9f4f4;
+  width: 80%; margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .experience-container {
+    flex-direction: column;
+    width: 150%;
+  }
 }
