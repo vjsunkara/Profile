@@ -6,6 +6,26 @@
 
 }
 
+/* index.css or any other CSS file */
+/* Styles for desktop */
+body {
+  font-size: 16px;
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
+
 
 body {
 
