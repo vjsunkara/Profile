@@ -18,12 +18,12 @@ const Header = () => {
       {
         id: 2,
         name: 'Experience',
-        content: <div className="experience-container"> <li>GuideOne Insurance Company | Software Developer Aug 2021– Present.</li>
+        content: <div className="experience-container"> <li><h2>GuideOne Insurance Company | Software Developer Aug 2021– Present.</h2></li>
         <>Developed an integrated application providing a comprehensive environment for account management, policy
   changes/renewals, monthly premium dues alerts, and claims processing status. Leveraged a diverse technology stack
   to deliver a user-friendly and efficient solution.</>
   <br/>
-        <li>ADK Technologies pvt Ltd| AWS Cloud Engineer April 2019– July 2021</li>
+        <li><h2>ADK Technologies pvt Ltd| AWS Cloud Engineer April 2019– July 2021</h2></li>
         <>Client: C.E.Info Systems is a leading company in providing the map services to the mobile platform and web
   applications. One message is the system that map my india uses to send communications to its customers. One
   message is the Enterprise-Wide application for all transactional customer communications. Achieved efficient
