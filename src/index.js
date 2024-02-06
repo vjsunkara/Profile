@@ -43,6 +43,12 @@ const Header = () => {
         </div>
       }
     ];
+
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+    const toggleDropdown = () => {
+      setIsDropdownOpen(!isDropdownOpen);
+    };
   
     return (
       <header>
@@ -69,15 +75,25 @@ const Header = () => {
         </div>
         </div>
         <div className="button-container">
-          {buttonData.map(button => (
-            <button
-              key={button.id}
-              onClick={() => setSelectedButton(button.id)}
-              className={selectedButton === button.id ? 'active' : ''}
-            >
-              {button.name}
-            </button>
-          ))}
+        <button className="dropdown-btn" onClick={toggleDropdown}>
+            ☰ {buttonData.find(b => b.id === selectedButton)?.name || ''}
+          </button>
+          {isDropdownOpen && (
+            <div className="dropdown-container">
+              {buttonData.map(button => (
+                <button
+                  key={button.id}
+                  onClick={() => {
+                    setSelectedButton(button.id);
+                    setIsDropdownOpen(false);
+                  }}
+                  className={selectedButton === button.id ? 'active' : ''}
+                >
+                  {button.name}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
         <div className="display-container">
           {buttonData.map(button => (
