@@ -87,6 +87,7 @@ code {
   /*background: #282c34;*/
   border-radius: 30px;
   justify-content: space-around;
+  font-size: clamp(lrem, 0.3043rem + 3.483vw, 3rem);
  }
  
  button {
@@ -193,14 +194,13 @@ code {
 
 .display-container{
   background-color: transparent;
+  font-size: clamp(lrem, 0.3043rem + 3.483vw, 3rem);
   backdrop-filter: blur(5px); 
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
+  margin: auto;
   height: 500px;
   overflow-y: auto;
 }
@@ -227,20 +227,23 @@ tr:nth-child(even) {
 }
 
 .content {
+  font-size: clamp(lrem, 0.3043rem + 3.483vw, 3rem);
   color: #333; /* Add a text color */
   align-items: center;
   justify-content: center;
-  
+
   width: 80%; margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
   .content {
+    font-size: clamp(lrem, 0.3043rem + 3.483vw, 3rem);
     flex-direction: column;
     width: 150%;
   }
 }
 .experience-container{
+  font-size: clamp(lrem, 0.3043rem + 3.483vw, 3rem); /*responsive*/
   align-items: center;
   justify-content: center;
   color: #f9f4f4;
@@ -249,6 +252,7 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 600px) {
   .experience-container {
+    font-size: clamp(lrem, 0.3043rem + 3.483vw, 3rem);
     flex-direction: column;
     width: 150%;
   }

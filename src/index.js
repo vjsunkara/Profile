@@ -6,7 +6,7 @@ import './index.css';
 import { useState } from 'react';
 
 const Header = () => {
-    const [selectedButton, setSelectedButton] = useState(null);
+    const [selectedButton, setSelectedButton] = useState();
     const buttonData = [
       {
         id: 1,
