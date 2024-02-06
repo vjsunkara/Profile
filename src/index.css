@@ -256,18 +256,16 @@ tr:nth-child(even) {
 
 .dropdown-container {
   position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
+  
   align-items: center;
   
   
  
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  
   justify-content: space-between;
   background: transparent;
-  padding-bottom: 75px;
+  padding-top:75px;
 }
 
